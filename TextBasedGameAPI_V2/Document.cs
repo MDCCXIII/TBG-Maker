@@ -14,13 +14,13 @@ namespace TextBasedGameAPI_V2
         /// </summary>
         string[] raw;
 
-        //TODO: parse raw data for sentences
+        //TODO: parse raw data for sentences -- MOVED TO sentencePackages
         /// <summary>
         /// an array of sentences obstracted from the raw data using punctuations as delimiters
         /// </summary>
         string[] sentences;
 
-        //TODO: determine sentence type -- MAY NOT BE NEEDED IN THIS CLASS
+        //TODO: determine sentence type -- MOVED TO sentencePackages
         /// <summary>
         /// associative dictionary of sentence types the int key of this dictionary is the index of the sentence in the sentences array
         /// </summary>
